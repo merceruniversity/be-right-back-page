@@ -3,8 +3,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin');
 
 const webpackConfig = {
-  devtool: 'eval-cheap-module-source-map',
-
   entry: {
     index: './src/index.js',
   },
